@@ -16,5 +16,6 @@ jobs:
   test:
     executor: node
     steps:
+      - checkout
       - run: npm install
       - run: npm run test
