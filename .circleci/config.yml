@@ -13,12 +13,12 @@ jobs:
   build:
     executor: node
     steps:
-    #   - checkout
+      - checkout
       - run: npm install
-    #   - run: npm run build
+      - run: npm run build
   test:
     executor: node
     steps:
-    #   - checkout
+      - checkout
       - run: npm install
       - run: npm run test
